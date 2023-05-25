@@ -1,0 +1,8 @@
+# Ignoring Node Modules
+node_modules/*
+
+# Ignoring Design Folder
+design/*
+
+# Ignoring Style Guide File
+style-guide.md
