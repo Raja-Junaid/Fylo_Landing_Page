@@ -689,9 +689,18 @@ video {
   height: 70%;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .max-h-fit {
   max-height: -moz-fit-content;
   max-height: fit-content;
+}
+
+.max-h-screen {
+  max-height: 100vh;
 }
 
 .w-\[56\%\] {
@@ -700,6 +709,14 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-col {
@@ -726,6 +743,10 @@ video {
 
 .self-end {
   align-self: flex-end;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-lg {
@@ -774,6 +795,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-light {
