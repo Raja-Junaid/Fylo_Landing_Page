@@ -24,44 +24,46 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-darkBlue1">
+  <body>
     <div class="progress-bar" id="progress-bar"></div>
-    <!--============================== NAVBAR ==============================-->
-    <nav class="relative container mx-auto px-8 py-10 md:px-14 md:py-12">
-      <div class="flex justify-between items-center">
-        <div>
-          <img
-            class="w-[56%] md:w-[75%]"
-            src="images/logo.svg"
-            alt="Fylo Logo"
-          />
-        </div>
-        <div class="text-Cyan hidden md:block">
-          <a href="#" class="mr-12">Features</a>
-          <a href="#" class="mr-12">Team</a>
-          <a href="#" class="">Sign In</a>
-        </div>
-        <div class="hamburger text-2xl text-White md:hidden">
-          <i class="ri-menu-4-fill"></i>
-        </div>
-      </div>
-
-      <div class="md:hidden">
-        <div
-          class="modal absolute flex-col w-screen h-screen items-center self-end py-0 mt-0 justify-center space-y-10 font-semibold tracking-normal text-xl text-White backdrop-filter backdrop-blur-lg sm:w-auto sm:self-center top-0 right-0 drop-shadow-2xl hidden"
-        >
-          <div
-            class="close text-3xl bg-lightGray font-light text-White rounded-lg p-1 py-0 absolute top-9 right-7"
-          >
-            <i class="ri-close-line"></i>
+    <div class="bg-darkBlue1 max-h-fit">
+      <!--============================== NAVBAR ==============================-->
+      <nav class="relative container mx-auto px-8 py-10 md:px-14 md:py-12">
+        <div class="flex justify-between items-center">
+          <div>
+            <img
+              class="w-[56%] md:w-[75%]"
+              src="images/logo.svg"
+              alt="Fylo Logo"
+            />
           </div>
-          <a class="text-2xl" href="#">Features</a>
-          <a class="text-2xl" href="#">Team</a>
-          <a class="text-2xl" href="#">Sign In</a>
+          <div class="text-Cyan hidden md:block">
+            <a href="#" class="mr-12">Features</a>
+            <a href="#" class="mr-12">Team</a>
+            <a href="#" class="">Sign In</a>
+          </div>
+          <div class="hamburger text-2xl text-White md:hidden">
+            <i class="ri-menu-4-fill"></i>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!--====================================================================-->
+
+        <div class="md:hidden">
+          <div
+            class="modal absolute flex-col w-screen h-screen items-center self-end py-0 mt-0 justify-center space-y-10 font-semibold tracking-normal text-xl text-White backdrop-filter backdrop-blur-lg sm:w-auto sm:self-center top-0 right-0 drop-shadow-2xl hidden"
+          >
+            <div
+              class="close text-4xl bg-lightGray font-light text-White rounded-lg p-1 py-0 absolute top-9 right-7"
+            >
+              <i class="ri-close-line"></i>
+            </div>
+            <a class="text-2xl" href="#">Features</a>
+            <a class="text-2xl" href="#">Team</a>
+            <a class="text-2xl" href="#">Sign In</a>
+          </div>
+        </div>
+      </nav>
+      <!--====================================================================-->
+    </div>
 
     <!--============== JavaScript ===============-->
     <script src="js/script.js"></script>
