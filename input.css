@@ -9,3 +9,30 @@ body {
 .heading {
   font-family: "Raleway", sans-serif;
 }
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* ========= Navbar Animation ========= */
+.modal {
+  animation: slideInRight 0.5s forwards ease-in-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.progress-bar {
+  top: 0;
+  left: 0;
+  height: 0.2rem;
+  width: 0%;
+  position: fixed;
+  background-color: rgb(29, 89, 255);
+}
