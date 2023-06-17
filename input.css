@@ -28,11 +28,21 @@ body.no-scroll {
   }
 }
 
+/* ========= Button Gradient ========= */
+.btn-gradient {
+  background: rgb(60, 156, 124);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 156, 124, 1) 0%,
+    rgba(53, 156, 179, 1) 100%
+  );
+}
+
 .progress-bar {
   top: 0;
   left: 0;
   height: 0.2rem;
   width: 0%;
   position: fixed;
-  background-color: rgb(29, 89, 255);
+  background-color: rgb(216, 216, 216);
 }
