@@ -33,8 +33,8 @@ body.no-scroll {
   background: rgb(60, 156, 124);
   background: linear-gradient(
     90deg,
-    rgba(60, 156, 124, 1) 0%,
-    rgba(53, 156, 179, 1) 100%
+    rgb(86, 202, 163) 0%,
+    rgb(24, 174, 207) 70%
   );
 }
 
