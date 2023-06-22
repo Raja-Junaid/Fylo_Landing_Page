@@ -613,8 +613,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mr-12 {
@@ -623,10 +623,6 @@ video {
 
 .mt-0 {
   margin-top: 0px;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
 }
 
 .block {
@@ -703,18 +699,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
 .border-transparent {
   border-color: transparent;
 }
@@ -756,16 +740,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
 }
 
 .pb-16 {
@@ -838,10 +812,6 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.outline-2 {
-  outline-width: 2px;
 }
 
 .drop-shadow-2xl {
@@ -947,53 +917,6 @@ body.no-scroll {
 
 .focus\:outline-double:focus {
   outline-style: double;
-}
-
-.focus\:outline-black:focus {
-  outline-color: #000;
-}
-
-.focus\:outline-yellow-300:focus {
-  outline-color: #fde047;
-}
-
-.active\:border:active {
-  border-width: 1px;
-}
-
-.active\:border-White:active {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.active\:border-Black:active {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.active\:bg-slate-200:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.active\:outline-dashed:active {
-  outline-style: dashed;
-}
-
-.active\:outline-double:active {
-  outline-style: double;
-}
-
-.active\:outline-8:active {
-  outline-width: 8px;
-}
-
-.active\:outline-black:active {
-  outline-color: #000;
-}
-
-.active\:outline-Black:active {
-  outline-color: #000000;
 }
 
 @media (min-width: 640px) {
