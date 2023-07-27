@@ -930,10 +930,6 @@ body.no-scroll {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
   .md\:mb-6 {
     margin-bottom: 1.5rem;
   }
@@ -980,24 +976,9 @@ body.no-scroll {
     padding-right: 5rem;
   }
 
-  .md\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:pb-12 {
@@ -1024,85 +1005,20 @@ body.no-scroll {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-72 {
-    margin-left: 18rem;
-    margin-right: 18rem;
-  }
-
-  .lg\:px-96 {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:h-\[150\%\] {
-    height: 150%;
-  }
-
-  .xl\:h-\[100\%\] {
-    height: 100%;
-  }
-
-  .xl\:h-\[115\%\] {
-    height: 115%;
-  }
-
-  .xl\:h-\[120\%\] {
-    height: 120%;
-  }
-
-  .xl\:h-\[122\%\] {
-    height: 122%;
-  }
-
   .xl\:h-\[125\%\] {
     height: 125%;
-  }
-
-  .xl\:px-96 {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
-  .xl\:px-64 {
-    padding-left: 16rem;
-    padding-right: 16rem;
   }
 
   .xl\:px-72 {
@@ -1110,60 +1026,20 @@ body.no-scroll {
     padding-right: 18rem;
   }
 
-  .xl\:px-80 {
-    padding-left: 20rem;
-    padding-right: 20rem;
-  }
-
-  .xl\:px-\[22rem\] {
-    padding-left: 22rem;
-    padding-right: 22rem;
-  }
-
-  .xl\:px-\[21rem\] {
-    padding-left: 21rem;
-    padding-right: 21rem;
-  }
-
   .xl\:px-\[20rem\] {
     padding-left: 20rem;
     padding-right: 20rem;
   }
-
-  .xl\:px-\[24rem\] {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
-  .xl\:px-\[26rem\] {
-    padding-left: 26rem;
-    padding-right: 26rem;
-  }
-
-  .xl\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
-  .xl\:px-\[25rem\] {
-    padding-left: 25rem;
-    padding-right: 25rem;
-  }
-
-  .xl\:px-\[28rem\] {
-    padding-left: 28rem;
-    padding-right: 28rem;
-  }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:px-\[26rem\] {
-    padding-left: 26rem;
-    padding-right: 26rem;
-  }
-
   .\32xl\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .\32xl\:px-\[26rem\] {
+    padding-left: 26rem;
+    padding-right: 26rem;
   }
 }
