@@ -6,3 +6,6 @@ design/*
 
 # Ignoring Style Guide File
 style-guide.md
+
+# Ignoring Prettier
+.prettierrc
