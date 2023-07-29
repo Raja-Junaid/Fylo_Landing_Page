@@ -35,7 +35,7 @@ const sr = ScrollReveal({
   origin: 'top',
   distance: '100px',
   duration: 2500,
-  reset: true,
+  reset: false,
 });
 
 sr.reveal('.left-ani', {
