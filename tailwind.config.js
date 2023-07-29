@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         White: '#ffffff',
         Black: '#000000',
-        Grey: '#dddddd',
+        Grey: '#fefefe',
+        darkGrey: '#dddddd',
         darkBlue1: 'hsl(217, 28%, 15%)',
         darkBlueMain: 'hsl(218, 28%, 13%)',
         darkBlueFooter: 'hsl(216, 53%, 9%)',
